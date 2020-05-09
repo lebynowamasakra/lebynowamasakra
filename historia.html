@@ -3,71 +3,104 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="historia.css">
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <title>Łebynowa Masakra</title>
     <link rel="icon" href="server-icon.png">
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img src="server-icon.png" width="30" height="30" class="d-inline-block align-top animated rubberBand infinite  " alt="">
-    <a class="navbar-brand font-weight-bold" href="#"><a></a>Łebynowa Masakra 4</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="index.html">Mapa</a>
-        <a class="nav-item nav-link" href="zasady.html">Zasady</a>
-        <a class="nav-item nav-link" href="historia.html">Historia</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="server-icon.png" width="30" height="30" class="d-inline-block align-top animated rubberBand infinite" alt="">
+            Łebynowa Masakra
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link navbartext" href="index.html">Mapa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbartext" href="zasady.html">Zasady</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbartext active" href="historia.html">Historia<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="particles-js"></div>
+      <div class="container">
+        <p></p>
+        <div class="jumbotron">
+          <h1 class="text-center AYAYA">HISTORIA ŁEBYNOWEJ MASAKRY</h1>
+        </div>
+        
+        <div class="row js-slick-carousel">
+          
+            <div class="col">
+              <div class="card">
+                <img class="aspect-16to9 card-img-top" src="intro.png" alt="" />
+                
+                <div class="card-body p-16to9">
+                  
+                  <div class="card-body-content">
+                    <h5 class="card-title">Intro - "Łebynowa Masakra"</h5>
+                    <p class="card-text">
+                        Wprowadzenie i zaczęcie Łebynowej Masakry, historia jej powstania i początki wojny.
+                        <p></p>
+                        <a class="btn btn-dark" href="intro.html">Przeczytaj »</a>
+                    </p>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+      
+          <div class="col">  
+            <div class="card">
+                <img class="aspect-16to9 card-img-top" src="chapter1.png" alt="" />
+                <div class="card-body p-16to9">
+                  
+                  <div class="card-body-content">
+                    <h5 class="card-title">Chapter I - "Wkrótce!"</h5>
+                    <p class="card-text">Łebyn i Omasta zaczeli tworzyć frakcję aby przy następnej wojnie zwyciężyć nad swoim przeciwnikiem.
+                        <p></p>
+                        <button class="btn btn-dark disabled">Już niedługo!</button>
+                    </p>
+                  </div>
+                  
+                </div>
+              </div>
+          </div>
+      
+          <div class="col">
+            <div class="card">
+              <img class="aspect-16to9 card-img-top" src="chapter2.png" alt="" />
+              <div class="card-body p-16to9">
+                <div class="card-body-content">
+                  <h5 class="card-title ">Chapter II - Wkrótce!</h5>
+                  <p class="card-text">Po wielu latach spokoju powstały nowe frakcje i sojusze oraz konflikty na Łebynowej Masakrze.
+                    <p></p>
+                    <button class="btn btn-dark disabled">Już niedługo!</button>
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
       </div>
-    </div>
-  </nav>
-  <div>
-      <h1></h1>
-  </div>
-  <div class="alert alert-dark text-center" role="alert"> 
-      <hr>
-    <h1>Historia Łebynowej Masakry</h4>
-        <hr>
-
-  </div>
-  <div class="card-group">
-    <div class="card">
-      <img src="historia1.png"  height="180px" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Chapter I</h5>
-        <p class="card-text">Opis pierwszego chapteru.</p>
-        <button type="button" class="btn btn-dark">Przeczytaj</button>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Napisane przez Lewd Zoe.</small>
-      </div>
-    </div>
-    <div class="card">
-      <img src="historia1.png" height="180px"  class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Chapter II</h5>
-        <p class="card-text">Opis drugiego chapteru.</p>
-        <button type="button" class="btn btn-dark">Przeczytaj</button>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Napisane przez Lewd Zoe.</small>
-      </div>
-    </div>
-    <div class="card">
-      <img src="historia1.png" height="180px" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Chapter III</h5>
-        <p class="card-text">Opis trzeciego chapteru.</p>
-        <button type="button" class="btn btn-dark">Przeczytaj</button>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Napisane przez Lewd Zoe.</small>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
